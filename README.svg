@@ -12,7 +12,7 @@
 <style>
 :root {
   font-family: Vollkorn;
-  font-size: 1em;
+  font-size: 0.8rem;
   color: rgb(31, 35, 40);
 }
 @media (prefers-color-scheme: dark) {
@@ -22,28 +22,19 @@
 }
 h1 {
   text-align: center;
-  font-size: 3.0rem;
+  font-size: 2.3rem;
   margin: 0;
   padding: 0;
 }
 h2 {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin: 0;
   padding-top: 0.2rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
   border-bottom: 1px solid;
 }
-a {
-  color: rgb(9, 105, 218);
-}
-.navbar {
-  display: flex;
-  text-align: center;
-  font-size: 1.2em;
-}
-.navbar a { flex: 1; }
 /* https://pragmaticpineapple.com/adding-custom-html-and-css-to-github-readme/ */
 @keyframes hi  {
    0% { transform: rotate( 0.0deg) }
@@ -59,7 +50,7 @@ a {
   animation: hi 3s linear -1s infinite;
   display: inline-block;
   transform-origin: 70% 70%;
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   vertical-align: middle;
 }
 @media (prefers-reduced-motion) {
@@ -68,11 +59,6 @@ a {
 </style>
 <h1><span class="hi">👋</span> Hi! <span class="hi">👋</span></h1>
 <h2>👨‍💻 I'm Robert 🧑‍🏫</h2>
-<div class='navbar'>
-<a href="https://robertandrewspencer.com">Blog</a>
-<a href="https://orcid.org/0000-0003-2432-3392">Papers</a>
-<a href="https://cv.robertandrewspencer.com">CV</a>
-</div>
 <p>
 I'm a mathematician by training and a software developer by trade. Welcome to my Github page!
 </p>
@@ -80,7 +66,7 @@ I'm a mathematician by training and a software developer by trade. Welcome to my
 📌 Have a look at my pins for some of my favourite projects.
 </p>
 <p>
-🚀 Also check out <a href="https://github.com/man-group/PyBloqs">PyBloqs</a>, a <a href="https://www.man.com/">Man Group</a> project that I currently maintain.
+🚀 Also check out <code>PyBloqs</code>, a Man Group project that I currently maintain.
 </p>
     </div>
   </foreignObject>
